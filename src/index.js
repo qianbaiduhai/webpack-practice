@@ -1,8 +1,14 @@
 import _ from 'lodash';
-
+import printMe from './print.js'
 function component() {
     var element = document.createElement('div');
-    element.innerHTML = _.join(['hello', 'webpack'], ' ')
+
+    var btn = document.createElement('button');
+    btn.innerHTML = '单击我检查控制台！'
+    btn.onclick = printMe
+
+    element.appendChild(btn)
+
     return element
 }
 
