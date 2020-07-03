@@ -4,7 +4,7 @@
   "description": "QianBaiDuHai webpack practice repository",
   "private": true,
   "scripts": {
-    "build": "webpack ",
+    "build": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -17,5 +17,8 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "csv-loader": "^3.0.3",
+    "xml-loader": "^1.2.1"
+  }
 }
