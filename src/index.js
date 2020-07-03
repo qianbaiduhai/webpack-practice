@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css'
+import './testPostcss'
 
 function component() {
     var element = document.createElement('div');

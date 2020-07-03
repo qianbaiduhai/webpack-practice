@@ -10,6 +10,15 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
+                exclude: path.resolve(__dirname, 'src/testPostcss'),
+                use: [
+                    'style-loader',
+                    'css-loader',
+                ]
+            },
+            {
+                test: /\.css$/,
+                include: path.resolve(__dirname, 'src/testPostcss'),
                 use: [
                     'style-loader',
                     'css-loader',

@@ -2,6 +2,4 @@
 
 ---
 
-master:只有最简单的 webpack 的基本配置
-
-feature-px2vw:在 master 分支上拓展出来，是 h5 适配方案
+需要注意的是在 webpack.config.js 中对某一个特定的文件夹下的 css 进行处理的时候，需要在已有的相同规则的情况下进行 exclude 处理，否则会报错。
