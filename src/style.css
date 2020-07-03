@@ -1,4 +1,9 @@
+@font-face {
+    font-family: 'webfont';
+    src: url('./webfont.woff2') format('woff2'), url('./webfont.woff') format('woff');
+}
 .hello {
-    background: url('./handLove.jpg');
+    /* background: url('./handLove.jpg'); */
     color: red;
+    font-family: 'webfont';
 }
