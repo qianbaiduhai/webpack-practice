@@ -4,12 +4,13 @@
   "description": "QianBaiDuHai webpack practice repository",
   "private": true,
   "scripts": {
-    "build": "webpack --watch",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^4.3.0",
     "lodash": "^4.17.15",
     "webpack": "^4.43.0",
