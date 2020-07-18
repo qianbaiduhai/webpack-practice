@@ -1,3 +1,3 @@
 export default function printMe() {
-    console.log('我是来自print.js文件');
+    console.error('我是来自print.js文件');
 }
