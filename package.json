@@ -7,6 +7,7 @@
     "start": "webpack-dev-server --open",
     "build": "webpack",
     "watch": "webpack --watch",
+    "server": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,6 +20,8 @@
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
+    "express": "^4.17.1",
+    "webpack-dev-middleware": "^3.7.2",
     "webpack-dev-server": "^3.11.0"
   }
 }
