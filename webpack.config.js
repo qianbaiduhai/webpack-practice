@@ -18,7 +18,7 @@ module.exports = {
             title: '管理输出',
             template: "./src/index.html"
         }),
-        // new webpack.NamedModulesPlugin(),
+        new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin()
     ],
 
