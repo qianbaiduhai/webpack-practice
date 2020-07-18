@@ -11,7 +11,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: '管理输出'
+            title: '管理输出',
+            template: "./src/index.html"
         })],
     output: {
         filename: '[name].bundle.js',
