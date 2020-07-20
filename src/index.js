@@ -1,5 +1,5 @@
 import { cube } from './math'
-
+import "./style.css"
 function component() {
     var element = document.createElement('pre');
     element.innerHTML = [
